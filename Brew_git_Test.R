@@ -4,7 +4,7 @@ library(tidyverse)
 # Generate random sample data
 set.seed(123)  # for reproducibility
 
-data <- rnorm(1000, mean = 50, sd = 10)  # 1000 normally distributed numbers
+data <- rnorm(1000, mean = 50, sd = 10.5)  # 1000 normally distributed numbers
 
 # Plot a histogram
 hist.default(data,
@@ -22,3 +22,6 @@ variable <- 3435
 # Working on update and git insight 
 
 # Im learning how to contribute to codes on GIThub
+
+# Faisal SD to 10.5
+
