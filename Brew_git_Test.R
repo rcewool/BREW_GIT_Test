@@ -1,7 +1,6 @@
 # Testing Git and GitHub Config
 library(tidyverse)
 
-
 # Generate random sample data
 set.seed(123)  # for reproducibility
 
@@ -16,4 +15,4 @@ hist.default(data,
      border = "white")
 
 # This is Just a Test 
-# This code is working now
+# Making a change for test
