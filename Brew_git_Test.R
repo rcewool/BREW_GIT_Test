@@ -4,7 +4,7 @@ library(tidyverse)
 # Generate random sample data
 set.seed(125)  # for reproducibility
 
-# Lorri changed the seed from 123 to 125
+# Lorri changed the seed from 123 to 125 fgfgfgf
 # Justification is because of new publications on data science journal 
 
 data <- rnorm(1000, mean = 25, sd =5.5)  # 1000 normally distributed numbers
