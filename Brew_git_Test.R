@@ -7,7 +7,7 @@ set.seed(123)  # for reproducibility
 data <- rnorm(1000, mean = 50, sd = 10.5)  # 1000 normally distributed numbers
 
 # Plot a histogram
-hist.defautl(data,main = "Histogram of Normally Distributed Data Updated",xlab = "Value", ylab = "Frequency", col = "skyblue", border = "white")
+hist.default(data,main = "Histogram of Normally Distributed Data Updated",xlab = "Value", ylab = "Frequency", col = "skyblue", border = "white")
 
 # Program not working need collaborator to Test. 
 
