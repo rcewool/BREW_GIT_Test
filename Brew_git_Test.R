@@ -2,11 +2,15 @@
 library(tidyverse)
 
 # Generate random sample data
-set.seed(123)  # for reproducibility
+set.seed(125)  # for reproducibility
+
+# Lorri changed the seed from 123 to 125
+# Justification is because of new publications on data science journal 
 
 data <- rnorm(1000, mean = 25, sd =5.5)  # 1000 normally distributed numbers
 
 #Changing the mean and standard deviation  to 25 and 5.5 
+
 
 # Plot a histogram
 hist.default(data,main = "Histogram of Normally Distributed Data Updated",xlab = "Value", ylab = "Frequency", col = "skyblue", border = "white")
