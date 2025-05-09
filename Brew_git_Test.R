@@ -20,11 +20,15 @@ hist.default(data,main = "Histogram of Normally Distributed Data Updated",xlab =
 
 
 
+
+
 # Program not working need collaborator to Test. 
 
 # This is Just a Test 
 # Making a change for test
-library(writexl)
+# library(writexl) write to excel function is not need at this time. 
+
+
 variable <- 3435
 
 # Working on update and git insight 
